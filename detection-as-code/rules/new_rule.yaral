@@ -1,4 +1,4 @@
-rule detect_mimikatz_execution {
+rule new_rule {
   meta:
     author = "Gemini"
     description = "Detects the execution of the Mimikatz credential dumping tool."
