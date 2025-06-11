@@ -1,0 +1,14 @@
+rule detect_mimikatz_execution {
+  meta:
+    author = "Gemini"
+    description = "Detects the execution of the Mimikatz credential dumping tool."
+    severity = "HIGH"
+    
+  events:
+    // This rule looks for process creation events in the UDM data model.
+    $process.metadata.event_type = "PROCESS_LAUNCH"
+    $process.principal.process.file.name = "mimikatz.exe"
+
+  condition:
+    $process
+}

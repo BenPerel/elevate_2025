@@ -2254,3 +2254,6 @@ wmic_ntds_dit_T1003_003_cisa_report:
   revision_id: v_1745003606_436271000
   run_frequency: LIVE
   type: SINGLE_EVENT
+new_rule:
+  alerting: false
+  enabled: true
