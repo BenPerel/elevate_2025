@@ -1462,6 +1462,18 @@ network_traffic_to_specific_country:
   revision_id: v_1745003913_156399000
   run_frequency: LIVE
   type: SINGLE_EVENT
+new_rule:
+  alerting: true
+  archive_time: null
+  archived: false
+  create_time: '2025-06-11T23:33:45.408303Z'
+  enabled: true
+  id: ru_e9eeb28c-7cf3-4277-9f33-8206dbd500f8
+  resource_name: projects/747066772811/locations/us/instances/9268dc68-8859-4416-8206-95bbdb5c40ff/rules/ru_e9eeb28c-7cf3-4277-9f33-8206dbd500f8
+  revision_create_time: '2025-06-11T23:33:45.408303Z'
+  revision_id: v_1749684825_408303000
+  run_frequency: LIVE
+  type: SINGLE_EVENT
 non_prod_arg_unc3944_cli_13:
   alerting: false
   archive_time: null
@@ -2254,6 +2266,3 @@ wmic_ntds_dit_T1003_003_cisa_report:
   revision_id: v_1745003606_436271000
   run_frequency: LIVE
   type: SINGLE_EVENT
-new_rule:
-  alerting: true
-  enabled: true
